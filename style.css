@@ -25,6 +25,24 @@ color:white
 /* navbar end*/
 
 
+
+.check{
+color: rgb(87, 255, 87);
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+
+}
+
+.cross{
+color:red;
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+}
+
+
+
 .editorial{
     background-color: rgb(97, 214, 253);
     color: white;

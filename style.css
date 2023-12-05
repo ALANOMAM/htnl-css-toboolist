@@ -4,6 +4,25 @@
     padding:0;
 }
 
+/* navbar start*/
+
+.add-task{
+padding: 5px;
+border-style: none;
+border-radius: 5px;  
+background-color: rgb(97, 214, 253);
+color:white
+}
+
+.add-section{
+    padding: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+}
+
+/* navbar end*/
 
 
 .editorial{

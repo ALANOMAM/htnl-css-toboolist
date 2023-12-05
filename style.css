@@ -5,12 +5,14 @@
 }
 
 body{
-    background-color: lightslategray;
+    background-color: whitesmoke;
 }
 
+/*inizio header*/
 h1{
     display: inline-block;
     vertical-align: middle;
+    font-family: sans-serif;
 }
 
 img{
@@ -22,7 +24,7 @@ header{
     background-color: white;
 }
 
-
+/*fine header*/
 
 
 .container{
@@ -31,16 +33,21 @@ header{
     background-color:white;
     margin-top: 40px;
     margin-left: 150px;
+    border-radius: 10px;
 }
-
-
 
 
 
 /* navbar start*/
 
+nav{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
 .add-task{
-padding: 5px;
+padding: 8px;
 border-style: none;
 border-radius: 5px;  
 background-color: rgb(97, 214, 253);
@@ -48,7 +55,7 @@ color:white
 }
 
 .add-section{
-    padding: 5px;
+    padding: 8px;
     border-width: 1px;
     border-radius: 5px;
     background-color: white;
@@ -58,13 +65,18 @@ color:white
 /* navbar end*/
 
 
+
 div{
     padding: 15px;
 }
 
+h2{
+    font-family: sans-serif; 
+}
 p{
     padding: 5px;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 span{
@@ -75,14 +87,17 @@ color: rgb(87, 255, 87);
 border-width: 2px;
 border-style: solid;
 border-radius: 15px;
+margin-right: 10px;
 
 }
 
-.cross{
+.cross{   
 color:red;
 border-width: 2px;
 border-style: solid;
 border-radius: 15px;
+margin-right: 10px;
+
 }
 
 
@@ -92,6 +107,7 @@ border-radius: 15px;
     color: white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }
 
 .goals{
@@ -99,6 +115,7 @@ border-radius: 15px;
     color:white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }
 
 .recruiting{
@@ -106,22 +123,26 @@ border-radius: 15px;
     color:white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }
 .mobile{
     background-color:orange;
     color:white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }
 .website{
     background-color:violet;
     color:white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }
 .sales{
     background-color: rgb(137, 204, 38);
     color:white;
     padding:5px;
     border-radius: 15px;
+    font-size: 12px;
 }

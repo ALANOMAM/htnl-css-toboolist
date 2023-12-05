@@ -25,7 +25,18 @@ color:white
 /* navbar end*/
 
 
+div{
+    padding: 15px;
+}
 
+p{
+    padding: 5px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: lighter;
+}
 .check{
 color: rgb(87, 255, 87);
 border-width: 2px;
